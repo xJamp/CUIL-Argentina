@@ -1,2 +1,7 @@
-# CUIL-Argentina
-Este modulo te permite conseguir el CUIL de un Argentino con su DNI y Sexo
+## Uso
+
+```bash
+import CUILArg
+
+Juan = CUILArg.get(Dni = '6891465', Sexo = 'm')  # return '20-06891465-6'
+```
